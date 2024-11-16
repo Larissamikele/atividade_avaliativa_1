@@ -7,8 +7,6 @@ def calcular_notas_moedas(valor):
         quantidade[cedula_moeda] = int(valor // cedula_moeda)
         valor -= quantidade[cedula_moeda] * cedula_moeda 
 
-    return quantidade
-try:
     valor_saque = float(input("Digite o valor do saque (em reais): ").replace(',', '.'))
     if valor_saque <= 0:
         print("O valor do saque deve ser positivo.")
