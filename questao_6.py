@@ -56,13 +56,13 @@ print(f'Idade: {idade} anos')
 print(f'Tempo de contribuição: {tempo_contribuicao} anos')
 
 
-if isinstance(aposentadoria_idade_data, datetime):
+if (aposentadoria_idade_data, datetime):
     print(f"Aposentadoria por Idade: {aposentadoria_idade_data.strftime('%d/%m/%Y')}")
 else:
     print(f"Aposentadoria por Idade: {aposentadoria_idade_data}")
 
 
-if isinstance(aposentadoria_tempo_data, datetime):
+if (aposentadoria_tempo_data, datetime):
     print(f"Aposentadoria por Tempo de Contribuição: {aposentadoria_tempo_data.strftime('%d/%m/%Y')}")
 else:
     print(f"Aposentadoria por Tempo de Contribuição: {aposentadoria_tempo_data}")
